@@ -1,14 +1,14 @@
-# FastAPI with OpenTelemetry and Jaeger
+# Flask_API with OpenTelemetry and Jaeger
 
-This project demonstrates how to integrate OpenTelemetry with a FastAPI application to collect telemetry data (traces) and visualize them using Jaeger.
+This project demonstrates how to integrate OpenTelemetry with a Flask_API application to collect telemetry data (traces) and visualize them using Jaeger.
 
 ## Overview
 
-The application is a simple FastAPI web service instrumented with OpenTelemetry to collect traces. Jaeger is used as the observability backend to visualize the traces, helping in monitoring and troubleshooting the application.
+The application is a simple Flask_API web service instrumented with OpenTelemetry to collect traces. Jaeger is used as the observability backend to visualize the traces, helping in monitoring and troubleshooting the application.
 
 ### Looks like this
 
-- FastAPI![1710975776341](image/README/1710975776341.png)
+- Flask_API![1710975776341](image/README/1710975776341.png)
 - Jaeger![1710975899908](image/README/1710975899908.png)
 
 ## Getting Started
@@ -24,8 +24,8 @@ The application is a simple FastAPI web service instrumented with OpenTelemetry 
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/aamersohailgit/fastapi-otel.git
-   cd https://github.com/aamersohailgit/fastapi-otel.git
+   git clone https://github.com/Nickhil215/python-distributed-tacing.git
+   cd https://github.com/Nickhil215/python-distributed-tacing.git
    ```
 2. **Create and activate a virtual environment (optional)**
 
@@ -61,13 +61,13 @@ The application is a simple FastAPI web service instrumented with OpenTelemetry 
    ```
 
    Access the Jaeger UI at `http://localhost:16686`.
-2. **Run the FastAPI application**
+2. **Run the Flask_API application**
 
    ```bash
    uvicorn app:app --reload
    ```
 
-   The FastAPI application will be available at `http://localhost:8000`.
+   The Flask_API application will be available at `http://localhost:8000`.
 
 ### Running the Application with docker-compose
 
