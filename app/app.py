@@ -14,7 +14,7 @@ tracer_provider = trace.get_tracer_provider()
 
 # Configure Jaeger exporter
 jaeger_exporter = JaegerExporter(
-    agent_host_name="jaeger",
+    agent_host_name="localhost",
     agent_port=6831,
 )
 
