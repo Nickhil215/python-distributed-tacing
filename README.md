@@ -24,8 +24,8 @@ The application is a simple FastAPI web service instrumented with OpenTelemetry 
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/aamersohailgit/fastapi-otel.git
-   cd https://github.com/aamersohailgit/fastapi-otel.git
+   git clone https://github.com/Nickhil215/python-distributed-tacing.git
+   cd https://github.com/Nickhil215/python-distributed-tacing.git
    ```
 2. **Create and activate a virtual environment (optional)**
 
